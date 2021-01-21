@@ -37,10 +37,10 @@ En cuanto a UX (definición del producto):
 - Diseño: Sencillo y con colores serios por estar relacionado a la ONU. Debía llevar el logo de esta organización y solo lo necesario para la mensajería cifrada. 
 - Prototipos y feedbacks: Hice un prototipo en Presentaciones de Google, procedí a pedir feedback y me recomendaron cambiar solo el color de la flecha para que se vea más notoria.
     Así quedó mi prototipo listo para pasar al código:
-    ![](./img/home.png)
-    ![](./img/cifrar.png)
-    ![](./img/descifrar.png)
+    ![](./src/img/home.png)
+    ![](./src/img/cifrar.png)
+    ![](./src/img/descifrar.png)
     Luego de intentar hacerlo de esta forma, una compañera me dio su feedback, comentándome que tal vez sería mejor si lo hiciera en una sola pantalla, con dos cuadros, así que diseñé otro prototipo (el cual volví a mostrar a mis familiares para que me dieran feedback), quedando listo para empezar a codificar: 
-    ![](./img/prototipo-final.png)
+    ![](./src/img/prototipo-final.png)
         Para darle más estilo, decidí colocarle unas flechas simples pero con estilo, y le agregué el botón limpiar. Así fue como quedó luego de codear: 
-    ![](./img/app-web.png)
+    ![](./src/img/app-web.png)
