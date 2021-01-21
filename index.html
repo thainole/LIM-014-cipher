@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+      </style>
+    <meta charset="utf-8">
+    <title>MENSAJERÍA SECRETA - ONU</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="img/logo.png" alt="" class="logo">
+      <h1>PORTAL DE MENSAJERÍA SECRETA DE LAS NACIONES UNIDAS</h1>
+      <img src="img/logo.png" alt="" class="logo">
+    </header>
+
+    <section>
+      <p>Ingrese el número de caracteres que desea desplazar</p>
+      <input type="number" placeholder="Solo dígitos" min= "0" id="number" class="number" required>
+      <span class="validity"></span>
+    </section>
+
+    <section class="part2">
+      <input type="text" id="text-to-encode" class="text" placeholder="Texto a cifrar">
+      <section class="button">
+          <img src="img/flechita.png" id="encode-btn" alt="Encode" >
+          <button id="clear">Limpiar</button>
+          <img src="img/flechita.png" id="decode-btn" alt="Decode" class="rotated">
+      </section>
+      <input type="text" id="text-to-decode" class="text" placeholder="Texto a descifrar">
+    </section>
+
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
